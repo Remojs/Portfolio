@@ -1,8 +1,15 @@
-# React + Vite
+# ESPAÑOL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Repositorio de Portafolio Personal
 
-Currently, two official plugins are available:
+Repositorio con el código de mi portafolio, ingresa para ver mis proyectos y los comentarios son bienvenidos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desarrollado con CSS puro, Vite y React.js
+
+# ENGLISH
+
+## Personal Portfolio Repository
+
+Repository with my portfolio code, log in to see my projects and feedback is welcome.
+
+Developed with pure CSS, Vite and React.js
