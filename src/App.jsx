@@ -8,7 +8,7 @@ import linkedinN from "./resources/social/LinkedinNegro.png"
 import thiago from  "./resources/thiago.png"
 import psh from './resources/Technologies/photoshop.svg'
 import figma from './resources/Technologies/figma.svg'
-import html from './resources/Technologies/HTML.svg'
+import html from './resources/Technologies/html.svg'
 import css from './resources/Technologies/css.svg'
 import bootstrap from './resources/Technologies/bootstrap.svg'
 import react from './resources/Technologies/react.svg'
