@@ -5,6 +5,9 @@ import linkedin from "./resources/social/LinkedinBlanco.png"
 import twitter from './resources/social/TwitterBlanco.png'
 import githubN from "./resources/social/githubNegro.png"
 import linkedinN from "./resources/social/LinkedinNegro.png"
+import repository from "./resources/social/githubProject.png"
+import page from "./resources/social/pageProject.png"
+import video from "./resources/social/videoProject.png"
 import thiago from  "./resources/thiago.png"
 import psh from './resources/Technologies/photoshop.svg'
 import figma from './resources/Technologies/figma.svg'
@@ -306,6 +309,14 @@ return (
                             <div className="trabajo__description">
                                 <a href="" className="pagina__enlace">Talent Forge Site</a>
                                 <p> Group Project </p>
+                                <div className="links">
+                                    <a href="https://github.com/Remojs/Talent-Forge-Frontend" className="project-links">
+                                        <img src={repository} alt="" className="project-links-image"/>
+                                    </a>
+                                    <a href="https://deploy-front-end-git-main-shakkus.vercel.app" className="project-links">
+                                        <img src={page} alt="" className="project-links-image"/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -314,6 +325,14 @@ return (
                             <div className="trabajo__description">
                                 <a href="" className="pagina__enlace">Steel Games</a>
                                 <p> Personal Website </p>
+                                <div className="links">
+                                    <a href="https://github.com/Remojs/Steel-Games-Website" className="project-links">
+                                        <img src={repository} alt="" className="project-links-image"/>
+                                    </a>
+                                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076992769575034880/" className="project-links">
+                                        <img src={video} alt="" className="project-links-image"/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -322,6 +341,17 @@ return (
                             <div className="trabajo__description">
                                 <a href="" target="_blank" className="pagina__enlace">Rickverse</a>
                                 <p> Personal Website </p>
+                                <div className="links">
+                                    <a href="https://github.com/Remojs/Rickverse-Frontend" className="project-links">
+                                        <img src={repository} alt="" className="project-links-image"/>
+                                    </a>
+                                    <a href="https://rickverse.vercel.app" className="project-links">
+                                        <img src={page} alt="" className="project-links-image"/>
+                                    </a>
+                                    <a href="https://www.linkedin.com/posts/thiago-zambonini_buenos-d%C3%ADas-red-quiero-compartir-con-ustedes-activity-7058791825272127488-McHR" className="project-links">
+                                        <img src={video} alt="" className="project-links-image"/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -330,6 +360,14 @@ return (
                             <div className="trabajo__description">
                                 <a href="#" className="pagina__enlace">Pokelanding Gallery</a>
                                 <p> Personal Website </p>
+                                <div className="links">
+                                    <a href="https://github.com/Remojs/Pokelanding" className="project-links">
+                                        <img src={repository} alt="" className="project-links-image"/>
+                                    </a>
+                                    <a href="https://pokelanding-livid.vercel.app" className="project-links">
+                                        <img src={page} alt="" className="project-links-image"/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -338,6 +376,14 @@ return (
                             <div className="trabajo__description">
                                 <a href="#" className="pagina__enlace">Gotta Fetch Them All - API</a>
                                 <p> Personal API </p>
+                                <div className="links">
+                                    <a href="https://github.com/Remojs/GottaFetchThemAll-API" className="project-links">
+                                        <img src={repository} alt="" className="project-links-image"/>    
+                                    </a>
+                                    <a href="https://gottafetchthemall-api.netlify.app" className="project-links">
+                                        <img src={page} alt="" className="project-links-image"/> 
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
