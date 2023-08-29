@@ -26,9 +26,10 @@ import ruby from './resources/Technologies/ruby.svg'
 import git from './resources/Technologies/git.svg'
 import TF from './resources/TFpage.png'
 import PL from './resources/Pokelandingpage.png'
-import RV from './resources/Rickversepage.png'
+import RV from './resources/Rickversepage2.png'
 import SP from './resources/Steelpage.png'
-import GFTA from './resources/GFTApage.png'
+import GFTA from './resources/GFTApage2.png'
+import TSK from './resources/Taskify.png'
 
 import { useEffect } from 'react';
 import $ from 'jquery';
@@ -386,6 +387,23 @@ return (
                                 </div>
                             </div>
                         </div>
+
+                        <div className="trabajo__item">
+                            <img src={TSK} className="trabajo__img" alt="" />
+                            <div className="trabajo__description">
+                                <a href="#" className="pagina__enlace">Taskify</a>
+                                <p> Personal Website </p>
+                                <div className="links">
+                                    <a href="https://github.com/Remojs/Taskify-Frontend" className="project-links">
+                                        <img src={repository} alt="" className="project-links-image"/>    
+                                    </a>
+                                    <a href="https://taskify-frontend.vercel.app" className="project-links">
+                                        <img src={page} alt="" className="project-links-image"/> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
