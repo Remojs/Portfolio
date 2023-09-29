@@ -30,6 +30,9 @@ import RV from './resources/Rickversepage2.png'
 import SP from './resources/Steelpage.png'
 import GFTA from './resources/GFTApage2.png'
 import TSK from './resources/Taskify.png'
+import MK from './resources/Merakipage.png'
+import VV from './resources/Vehiclepage.png'
+import PA from './resources/permutautopage.png'
 
 import { useEffect } from 'react';
 import $ from 'jquery';
@@ -403,6 +406,40 @@ return (
                                 </div>
                             </div>
                         </div>
+
+                        <div className="trabajo__item">
+                            <img src={MK} className="trabajo__img" alt="" />
+                            <div className="trabajo__description">
+                                <a href="#" className="pagina__enlace">Meraki</a>
+                                <p> Client Website </p>
+                                <div className="links">
+                                    <a href="https://github.com/Remojs/Meraki-publicidad" className="project-links">
+                                        <img src={repository} alt="" className="project-links-image"/>    
+                                    </a>
+                                    <a href="https://meraki-publicidad.vercel.app" className="project-links">
+                                        <img src={page} alt="" className="project-links-image"/> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="trabajo__item">
+                            <img src={VV} className="trabajo__img" alt="" />
+                            <div className="trabajo__description">
+                                <a href="#" className="pagina__enlace">Vehicleverse-API</a>
+                                <p> Personal API </p>
+                            </div>
+                        </div>
+
+                        <div className="trabajo__item">
+                            <img src={PA} className="trabajo__img" alt="" />
+                            <div className="trabajo__description">
+                                <a href="#" className="pagina__enlace">Permutauto</a>
+                                <p> Personal Website </p>
+                            </div>
+                        </div>
+
+
 
                     </div>
                 </div>
