@@ -12,6 +12,8 @@ import thiago from  "./resources/thiago.png"
 import psh from './resources/Technologies/photoshop.svg'
 import figma from './resources/Technologies/figma.svg'
 import html from './resources/Technologies/html.svg'
+import nest from './resources/Technologies/nest.svg'
+import java from './resources/Technologies/java.svg'
 import css from './resources/Technologies/css.svg'
 import bootstrap from './resources/Technologies/bootstrap.svg'
 import react from './resources/Technologies/React.svg'
@@ -292,6 +294,18 @@ return (
                             <div className="lenguaje2" style={{"--c":"#F05639"}}>
                                 <span className="leguaje2__content">
                                     <img src={git} alt="" className="lenguaje__img" />
+                                </span>
+                            </div>
+
+                            <div className="lenguaje2" style={{"--c":"#F89B24"}}>
+                                <span className="leguaje2__content">
+                                    <img src={java} alt="" className="lenguaje__img" />
+                                </span>
+                            </div>
+
+                            <div className="lenguaje2" style={{"--c":"#ED272C"}}>
+                                <span className="leguaje2__content">
+                                    <img src={nest} alt="" className="lenguaje__img" />
                                 </span>
                             </div>
                         </div>
