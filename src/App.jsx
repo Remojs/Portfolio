@@ -26,15 +26,36 @@ import postgre from './resources/Technologies/postgres.svg'
 import mongo from './resources/Technologies/mongo.svg'
 import ruby from './resources/Technologies/ruby.svg'
 import git from './resources/Technologies/git.svg'
-import TF from './resources/TFpage.png'
-import PL from './resources/Pokelandingpage.png'
-import RV from './resources/Rickversepage2.png'
-import SP from './resources/Steelpage.png'
-import GFTA from './resources/GFTApage2.png'
-import TSK from './resources/Taskify.png'
-import MK from './resources/Merakipage.png'
-import VV from './resources/Vehiclepage.png'
-import PA from './resources/permutautopage.png'
+import TF from './resources/Projects/talentforge-page.png'
+import TFI from './resources/Projects/talentforge-icon.png'
+import TFT from './resources/Projects/talentforge-word.png'
+import GCX from './resources/Projects/geocx-page.png'
+import GCXI from './resources/Projects/geocx-icon.png'
+import GCXT from './resources/Projects/geocx-word.png'
+import GFTA from './resources/Projects/gfta-page.png'
+import GFTAI from './resources/Projects/gfta-icon.png'
+import GFTAT from './resources/Projects/gfta-word.png'
+import MZ from './resources/Projects/mazamitla-page.png'
+import MZI from './resources/Projects/mazamitla-icon.png'
+import MZT from './resources/Projects/mazamitla-word.png'
+import MK from './resources/Projects/meraki-page.png'
+import MKI from './resources/Projects/meraki-icon.png'
+import MKT from './resources/Projects/meraki-word.png'
+import PC from './resources/Projects/pinochueco-page.png'
+import PCI from './resources/Projects/pinochueco-icon.png'
+import PCT from './resources/Projects/pinochueco-word.png'
+import PL from './resources/Projects/pokelanding-page.png'
+import PLI from './resources/Projects/pokelanding-icon.png'
+import PLT from './resources/Projects/pokelanding-word.png'
+import RV from './resources/Projects/rickverse-page.png'
+import RVI from './resources/Projects/rickverse-icon.png'
+import RVT from './resources/Projects/rickverse-word.png'
+import SP from './resources/Projects/steel-page.png'
+import SPI from './resources/Projects/steel-icon.png'
+import SPT from './resources/Projects/steel-word.png'
+import TSK from './resources/Projects/taskify-page.png'
+import TSKI from './resources/Projects/taskify-icon.png'
+import TSKT from './resources/Projects/taskify-word.png'
 
 import { useEffect } from 'react';
 import $ from 'jquery';
@@ -151,21 +172,39 @@ return (
                     <h2 className="title title--experience" data-aos="fade-up-left">Where have I worked</h2>
                     <div className="experience__content" data-aos="fade-up-right">
                         <div className="experience__enterprises" id="enterprise">
-                            <li className="experience__enterprise experience__enterprise--active" data-filter="example_1"> Talent Forgers </li>
-                            <li className="experience__enterprise" data-filter="example_2">Henry</li>
-                            <li className="experience__enterprise" data-filter="example_3">Freelance</li>
+                            <li className="experience__enterprise experience__enterprise--active" data-filter="example_1">Smart Racoon</li>
+                            <li className="experience__enterprise" data-filter="example_2"> Talent Forgers </li>
+                            <li className="experience__enterprise" data-filter="example_3">Henry</li>
+                            <li className="experience__enterprise" data-filter="example_4">Freelance</li>
                         </div>
 
                         <div className="experience__descriptions">
+                        <div className="experience__description example_1">
+                                <h3 className="experience__work">Development Manager <a className="link__enterprise">@ Smart Racoon </a></h3>
+                                <p className="experience__date">Dec 2023 - act. </p>
+                                <p className="experience__paragraph">Effective coordination of staff on key projects, ensuring smooth execution. </p>
+                                <p className="experience__paragraph">Comprehensive project management and optimization of internal communication..</p>
+                                <p className="experience__paragraph">Strategic organization of tasks to maximize operational efficiency.</p>
+                                <p className="experience__paragraph">Implementation of agile project management practices.</p>
+                            </div>
+
                             <div className="experience__description example_1">
+                                <h3 className="experience__work">Web Developer <a className="link__enterprise">@ Smart Racoon </a></h3>
+                                <p className="experience__date">Oct 2023 - act. </p>
+                                <p className="experience__paragraph">Design and creation of quality frontend for major projects</p>
+                                <p className="experience__paragraph">Backend support and development to ensure performance and scalability. </p>
+                                <p className="experience__paragraph">Design of strategies to improve user experience.</p>
+                            </div>
+
+                            <div className="experience__description example_2">
                                 <h3 className="experience__work">Full Stack Developer <a href="https://www.linkedin.com/company/talent-forge-latam/" className="link__enterprise">@ Talent Forgers </a></h3>
-                                <p className="experience__date">Jul 2023 - act. </p>
+                                <p className="experience__date">Jul 2023 - Nov 2023</p>
                                 <p className="experience__paragraph">Group task organization</p>
                                 <p className="experience__paragraph">Backend and frontend application development </p>
                                 <p className="experience__paragraph">Project database and repository management</p>
                             </div>
 
-                            <div className="experience__description example_2">
+                            <div className="experience__description example_3">
                                 <h3 className="experience__work">Teaching Assistant <a href="https://www.soyhenry.com/" className="link__enterprise">@ Henry </a> </h3>
                                 <p className="experience__date">May 2023 - Jul 2023 </p>
                                 <p className="experience__paragraph">Coordinate the group of students with the objective of achieving their adaptation to the program. </p>
@@ -175,7 +214,7 @@ return (
                                 <p className="experience__paragraph">Promote group cohesion and generate community. </p>
                             </div>
 
-                            <div className="experience__description example_3">
+                            <div className="experience__description example_4">
                                 <h3 className="experience__work"> Freelance Web solution creator </h3>
                                 <p className="experience__date">Sep 2022 - Mar 2023 </p>
                                 <p className="experience__paragraph">Build web solutions that solve customer problems </p>
@@ -314,150 +353,216 @@ return (
             </section>
 
 
-            <section id="projects">
-                <div className="trabajos__container container">
-                    <div className="trabajos__texts">
-                        <h2 className="title trabajo__title">Projects</h2>
-                    </div>
+            
+    <div className="projects-section">
+        <h2 className="title trabajo__title">Projects</h2>
+            <div className='projects-box'>
 
-                    <div className="trabajos__items">
-
-                        <div className="trabajo__item">
-                            <img src={TF} className="trabajo__img" alt=""/>
-                            <div className="trabajo__description">
-                                <a href="" className="pagina__enlace">Talent Forge Site</a>
-                                <p> Group Project </p>
-                                <div className="links">
-                                    <a href="https://github.com/Remojs/Talent-Forge-Frontend" className="project-links">
-                                        <img src={repository} alt="" className="project-links-image"/>
-                                    </a>
-                                    <a href="https://deploy-front-end-git-main-shakkus.vercel.app" className="project-links">
-                                        <img src={page} alt="" className="project-links-image"/>
-                                    </a>
-                                </div>
+                        <a href="https://deploy-front-end-git-main-shakkus.vercel.app" alt="Talent Forge" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Talent Forge</h1>
+                                <h4 className='card-desc'>- Bootcamp Project -</h4>
+                                    <div className="project-links">
+                                        <a href="https://github.com/Remojs/Talent-Forge-Frontend" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>
+                                        </a>
+                                    </div>
                             </div>
-                        </div>
-
-                        <div className="trabajo__item">
-                            <img src={SP} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="" className="pagina__enlace">Steel Games</a>
-                                <p> Personal Website </p>
-                                <div className="links">
-                                    <a href="https://github.com/Remojs/Steel-Games-Website" className="project-links">
-                                        <img src={repository} alt="" className="project-links-image"/>
-                                    </a>
-                                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076992769575034880/" className="project-links">
-                                        <img src={video} alt="" className="project-links-image"/>
-                                    </a>
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={TF} class="cover-image" />
                                 </div>
+                                <img src={TFT} class="title" />
+                                <img src={TFI} class="character" />
                             </div>
-                        </div>
+                        </a>
 
-                        <div className="trabajo__item">
-                            <img src={RV} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="" target="_blank" className="pagina__enlace">Rickverse</a>
-                                <p> Personal Website </p>
-                                <div className="links">
+
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076992769575034880/" alt="Talent Forge" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Steel Games </h1>
+                                <h4 className='card-desc'>- Bootcamp Project -</h4>
+                                    <div className="project-links">
+                                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076992769575034880/" className="project-links">
+                                            <img src={video} alt="" className="project-links-image"/>
+                                        </a>
+                                    </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={SP} class="cover-image" />
+                                </div>
+                                <img src={SPT} class="title" />
+                                <img src={SPI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://rickverse.vercel.app" alt="Talent Forge" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Rickverse </h1>
+                                <h4 className='card-desc'>- Bootcamp Project -</h4>
+                                    <div className="project-links">
                                     <a href="https://github.com/Remojs/Rickverse-Frontend" className="project-links">
                                         <img src={repository} alt="" className="project-links-image"/>
-                                    </a>
-                                    <a href="https://rickverse.vercel.app" className="project-links">
-                                        <img src={page} alt="" className="project-links-image"/>
                                     </a>
                                     <a href="https://www.linkedin.com/posts/thiago-zambonini_buenos-d%C3%ADas-red-quiero-compartir-con-ustedes-activity-7058791825272127488-McHR" className="project-links">
                                         <img src={video} alt="" className="project-links-image"/>
                                     </a>
+                                    </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={RV} class="cover-image" />
+                                </div>
+                                <img src={RVT} class="title" />
+                                <img src={RVI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://pokelanding-livid.vercel.app" alt="Talent Forge" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Pokelanding </h1>
+                                <h4 className='card-desc'>- Personal Project -</h4>
+                                    <div className="project-links">
+                                        <a href="https://github.com/Remojs/Pokelanding" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>
+                                        </a>
+                                    </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={PL} class="cover-image" />
+                                </div>
+                                <img src={PLT} class="title" />
+                                <img src={PLI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://taskify-frontend.vercel.app" alt="Talent Forge" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Taskify </h1>
+                                <h4 className='card-desc'>- Personal Project -</h4>
+                                    <div className="project-links">
+                                        <a href="https://github.com/Remojs/Taskify-Frontend" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>    
+                                        </a>
+                                    </div>
+                            </div>
+                            
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={TSK} class="cover-image" />
+                                </div>
+                                <img src={TSKT} class="title" />
+                                <img src={TSKI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://meraki-publicidad.vercel.app" alt="Talent Forge" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Meraki </h1>
+                                <h4 className='card-desc'> - Client Project -</h4>
+                                    <div className="project-links">
+                                        <a href="https://github.com/Remojs/Meraki-publicidad" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>    
+                                        </a>
+                                    </div>
+                            </div>
+                        
+                        
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={MK} class="cover-image" />
+                                </div>
+                                <img src={MKT} class="title" />
+                                <img src={MKI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://gottafetchthemall-api.netlify.app" alt="Talent Forge" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> G.F.T.A. API </h1>
+                                <h4 className='card-desc'> - Personal Project -</h4>
+                                    <div className="project-links">
+                                        <a href="https://github.com/Remojs/GottaFetchThemAll-API" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>    
+                                        </a>
+                                    </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={GFTA} class="cover-image" />
+                                </div>
+                                <img src={GFTAT} class="title" />
+                                <img src={GFTAI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/Remojs" alt="GeoCX" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> GeoCX </h1>
+                                <h4 className='card-desc'> - Client Project -</h4>
+                                <div className="project-links">
+                                        <a href="https://github.com/Remojs" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>    
+                                        </a>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="trabajo__item">
-                            <img src={PL} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="#" className="pagina__enlace">Pokelanding Gallery</a>
-                                <p> Personal Website </p>
-                                <div className="links">
-                                    <a href="https://github.com/Remojs/Pokelanding" className="project-links">
-                                        <img src={repository} alt="" className="project-links-image"/>
-                                    </a>
-                                    <a href="https://pokelanding-livid.vercel.app" className="project-links">
-                                        <img src={page} alt="" className="project-links-image"/>
-                                    </a>
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={GCX} class="cover-image" />
+                                </div>
+                                <img src={GCXT} class="title" />
+                                <img src={GCXI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/Remojs" alt="Pinochueco" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Pinochueco </h1>
+                                <h4 className='card-desc'> - Client Project -</h4>
+                                <div className="project-links">
+                                        <a href="https://github.com/Remojs" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>    
+                                        </a>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="trabajo__item">
-                            <img src={GFTA} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="#" className="pagina__enlace">Gotta Fetch Them All - API</a>
-                                <p> Personal API </p>
-                                <div className="links">
-                                    <a href="https://github.com/Remojs/GottaFetchThemAll-API" className="project-links">
-                                        <img src={repository} alt="" className="project-links-image"/>    
-                                    </a>
-                                    <a href="https://gottafetchthemall-api.netlify.app" className="project-links">
-                                        <img src={page} alt="" className="project-links-image"/> 
-                                    </a>
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={PC} class="cover-image" />
+                                </div>
+                                <img src={PCT} class="title" />
+                                <img src={PCI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/Remojs" alt="Mazamitla" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Mazamitla </h1>
+                                <h4 className='card-desc'> - Client Project -</h4>
+                                <div className="project-links">
+                                        <a href="https://github.com/Remojs" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>    
+                                        </a>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="trabajo__item">
-                            <img src={TSK} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="#" className="pagina__enlace">Taskify</a>
-                                <p> Personal Website </p>
-                                <div className="links">
-                                    <a href="https://github.com/Remojs/Taskify-Frontend" className="project-links">
-                                        <img src={repository} alt="" className="project-links-image"/>    
-                                    </a>
-                                    <a href="https://taskify-frontend.vercel.app" className="project-links">
-                                        <img src={page} alt="" className="project-links-image"/> 
-                                    </a>
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={MZ} class="cover-image" />
                                 </div>
+                                <img src={MZT} class="title" />
+                                <img src={MZI} class="character" />
                             </div>
-                        </div>
-
-                        <div className="trabajo__item">
-                            <img src={MK} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="#" className="pagina__enlace">Meraki</a>
-                                <p> Client Website </p>
-                                <div className="links">
-                                    <a href="https://github.com/Remojs/Meraki-publicidad" className="project-links">
-                                        <img src={repository} alt="" className="project-links-image"/>    
-                                    </a>
-                                    <a href="https://meraki-publicidad.vercel.app" className="project-links">
-                                        <img src={page} alt="" className="project-links-image"/> 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="trabajo__item">
-                            <img src={VV} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="#" className="pagina__enlace">Vehicleverse-API</a>
-                                <p> Personal API </p>
-                            </div>
-                        </div>
-
-                        <div className="trabajo__item">
-                            <img src={PA} className="trabajo__img" alt="" />
-                            <div className="trabajo__description">
-                                <a href="#" className="pagina__enlace">Permutauto</a>
-                                <p> Personal Website </p>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </section>
+                        </a>
+            </div>
+    </div>
 
             <div className="contact" id="contact">
                 <div className="contact__container container">

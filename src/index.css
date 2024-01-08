@@ -868,94 +868,7 @@ transform: translateY(450px);
 }
 
 
-
 /*----------------------------------  */
-/* ----------Works -----------*/
-
-.works {
-    background-color: var(--black);
-    padding: 4em 0;
-}
-
-
-
-.cards {
-
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    justify-content: space-evenly;
-    padding: 3em 0;
-    gap: 2em 1.4em;
-
-
-}
-
-.card {
-
-    width: 100%;
-    display: flex;
-    gap: .7em;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: all .5s;
-}
-
-.card:hover {
-    /* background: #fff; */
-    box-shadow: 0px 0px 50px 0 rgba(255, 255, 255, 0.704), 0 6px 20px 0 rgba(255, 255, 255, 0.595);
-}
-
-.card:hover .card__picture::after {
-    opacity: 0;
-}
-
-
-
-.card__picture {
-    position: relative;
-    height: 280px;
-    transition: all .5s;
-}
-
-.card__picture::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #0073b134;
-    transition: all .5s;
-}
-
-.card__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.card__text {
-    padding: 0 1em;
-}
-
-.card__title {
-    color: var(--link);
-    font-weight: 800;
-    font-size: 1.5em;
-}
-
-.card__tecnologies {
-    padding-top: .5em;
-    padding-bottom: 1em;
-    color: var(--plomo);
-    font-weight: 500;
-    font-size: 1em;
-}
 
 /*------------------- Contacto  ----------------*/
 
@@ -1080,10 +993,165 @@ transform: translateY(450px);
 
 }
 
-
 .active {
     font-weight: 600;
 }
+
+
+
+/*CARD ---------------*/
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13rem
+}
+
+.card-title{
+    color: #fff;
+}
+
+.card-desc{
+    color: #3895E3;
+}
+
+.card-title:hover{
+    color: #fff;
+}
+
+.card-desc:hover{
+    color: #3895E3;
+}
+
+
+.card-title:visited{
+    color: #fff;
+}
+
+.card-desc:visited{
+    color: #3895E3;
+}
+
+.trabajo__title{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 5rem;
+}
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.projects-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3em 0;
+    gap: 2em 1.4em;
+    margin: 0;
+}
+
+.card {
+	width: 250px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0 36px;
+	perspective: 2500px;
+	margin: 7rem 1rem;
+}
+
+.cover-image {
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+	transition: all 0.5s;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.card:hover .wrapper {
+	transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+	box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+	content: "";
+	opacity: 0;
+	width: 100%;
+	height: 80px;
+	transition: all 0.5s;
+	position: absolute;
+	left: 0;
+}
+.wrapper::before {
+	top: 0;
+	height: 100%;
+	background-image: linear-gradient(
+		to top,
+		transparent 46%,
+		rgba(12, 13, 19, 0.5) 68%,
+		rgba(12, 13, 19) 97%
+	);
+}
+.wrapper::after {
+	bottom: 0;
+	opacity: 1;
+	background-image: linear-gradient(
+		to bottom,
+		transparent 46%,
+		rgba(12, 13, 19, 0.5) 78%,
+		rgba(12, 13, 19) 97%
+	);
+}
+
+.card:hover .wrapper::before,
+.wrapper::after {
+	opacity: 1;
+}
+
+.card:hover .wrapper::after {
+	height: 120px;
+}
+.title {
+	width: 100%;
+	transition: transform 0.5s;
+}
+.card:hover .title {
+	transform: translate3d(0%, -50px, 100px);
+}
+
+.character {
+    scale: 0.8;
+    margin-bottom: 1rem;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+	position: absolute;
+	z-index: -1;
+}
+
+.card:hover .character {
+	opacity: 1;
+	transform: translate3d(0%, -30%, 100px);
+}
+
+
+/*CARD ---------------*/
 
 @media (max-width:1024px) {
     .info__container {
