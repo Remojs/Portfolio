@@ -91,7 +91,7 @@ a {
 }
 
 .hero {
-    background: url('./resources/fondo.jpg');
+    background: url('./Components/resources/fondo.jpg');
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: center bottom;

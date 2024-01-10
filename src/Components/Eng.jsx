@@ -119,6 +119,7 @@ return (
                         <a href="#aboutme" className="nav__link active"> About Me </a>
                         <a href="#projects" className="nav__link"> Projects </a>
                         <a href="#contact" className="nav__link"> Social </a>
+                        <a href="/" className="nav__link"> Spanish </a>
                     </div>
                         
                     <img src={menu} className=" nav__img "/>
