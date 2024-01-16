@@ -874,7 +874,7 @@ transform: translateY(450px);
 
 .contact {
     padding: 8rem 0;
-    background: linear-gradient(180deg, #000 0%, #3896e33a 50%, #000 100%), url('./resources/teclado.webp');
+    background: linear-gradient(180deg, #000 0%, #3896e33a 50%, #000 100%), url('./components/resources/teclado.webp');
     background-repeat: no-repeat;
     /* background-attachment: ; */
     background-size: cover;

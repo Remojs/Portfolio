@@ -543,7 +543,7 @@ return (
                             </div>
                         </a>
 
-                        <a href="https://github.com/Remojs" alt="Mazamitla" target="_blank">
+                        <a href="https://www.mazamitlasierratours.com" alt="Mazamitla" target="_blank">
                             <div className='card-info'>
                                 <h1 className="card-title"> Mazamitla </h1>
                                 <h4 className='card-desc'> - Client Project -</h4>
