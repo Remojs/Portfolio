@@ -56,6 +56,9 @@ import SPT from './resources/Projects/steel-word.png'
 import TSK from './resources/Projects/taskify-page.png'
 import TSKI from './resources/Projects/taskify-icon.png'
 import TSKT from './resources/Projects/taskify-word.png'
+import SH from './resources/Projects/sheva-page.png'
+import SHI from './resources/Projects/sheva-icon.png'
+import SHT from './resources/Projects/sheva-word.png'
 
 import { useEffect } from 'react';
 import $ from 'jquery';
@@ -537,7 +540,7 @@ return (
                             </div>
                         </a>
 
-                        <a href="https://www.mazamitlasierratours.com" alt="Mazamitla" target="_blank">
+                        <a href="https://www.mazamitlasierratours.com " alt="Mazamitla" target="_blank">
                             <div className='card-info'>
                                 <h1 className="card-title"> Mazamitla </h1>
                                 <h4 className='card-desc'> - Proyecto para Cliente -</h4>
@@ -554,6 +557,26 @@ return (
                                 </div>
                                 <img src={MZT} class="title" />
                                 <img src={MZI} class="character" />
+                            </div>
+                        </a>
+
+                        <a href="https://www.mazamitlasierratours.com " alt="Mazamitla" target="_blank">
+                            <div className='card-info'>
+                                <h1 className="card-title"> Sheva </h1>
+                                <h4 className='card-desc'> - Proyecto para Cliente -</h4>
+                                <div className="project-links">
+                                        <a href="https://github.com/Remojs" className="project-links">
+                                            <img src={repository} alt="" className="project-links-image"/>    
+                                        </a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="wrapper">
+                                    <img src={SH} class="cover-image" />
+                                </div>
+                                <img src={SHT} class="title" />
+                                <img src={SHI} class="character" />
                             </div>
                         </a>
             </div>
