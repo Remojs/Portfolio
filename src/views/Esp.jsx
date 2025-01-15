@@ -7,9 +7,12 @@ import * as tech from '../assets/images/tech'
 //Data
 import projectsData from '../data/projects.json';
 import techData from '../data/tech.json';
+import experienceData from '../data/experiencia.json';
 
 //Components
 import ProjectCard from '../components/projectCard/projectCard'
+import JobCard from '../components/jobCard/jobCard'
+
 
 //React Imports
 import { useEffect } from 'react';
@@ -85,8 +88,8 @@ return (
                 <p className="hero__profession">Desarrollador Web Fullstack</p>
                 <p className="hero__paragrahp">Creador de soluciones web centradas en la sencillez y la eficacia.</p>
                 <div className="social-icon-box">
-                    <a href="https://github.com/Remojs" className="social-icon-link"><img src={social.ghWhite} alt="" className="social-icon"/></a>
-                    <a href="https://www.linkedin.com/in/thiago-zambonini-2a279a239/" className="social-icon-link"><img src={social.ldBlack} alt="" className="social-icon"/></a>
+                    <a href="https://github.com/Remojs" className="social-icon-link"><img src={social.ghBlack} alt="" className="social-icon"/></a>
+                    <a href="https://www.linkedin.com/in/thiago-zambonini-2a279a239/" className="social-icon-link"><img src={social.ldWhite} alt="" className="social-icon"/></a>
                 </div>
             </div>
         </div>
@@ -111,62 +114,17 @@ return (
             </section>
 
             {/* Experiencia */}
-            <section className="experience ">
-                        <div className="experience__container container">
-                            <h2 className="title title--experience" data-aos="fade-up-left">Donde he trabajado?</h2>
-                            <div className="experience__content" data-aos="fade-up-right">
-                                <div className="experience__enterprises" id="enterprise">
-                                    <li className="experience__enterprise experience__enterprise--active" data-filter="example_1">Smart Racoon</li>
-                                    <li className="experience__enterprise" data-filter="example_2"> Talent Forgers </li>
-                                    <li className="experience__enterprise" data-filter="example_3">Henry</li>
-                                    <li className="experience__enterprise" data-filter="example_4">Freelance</li>
-                                </div>
-
-                                <div className="experience__descriptions">
-                                <div className="experience__description example_1">
-                                        <h3 className="experience__work">Jefe de Desarrollo <a className="link__enterprise">@ Smart Racoon </a></h3>
-                                        <p className="experience__date">Feb. 24 - act. </p>
-                                        <p className="experience__paragraph">Coordinación eficaz del personal en proyectos clave, asegurando una ejecución fluida.  </p>
-                                        <p className="experience__paragraph">Gestión integral de proyectos y optimización de la comunicación interna.</p>
-                                        <p className="experience__paragraph">Organización estratégica de tareas para maximizar la eficiencia operativa.</p>
-                                        <p className="experience__paragraph">Implantación de prácticas ágiles de gestión de proyectos.</p>
-                                    </div>
-
-                                    <div className="experience__description example_1">
-                                        <h3 className="experience__work">Desarrollador Fullstack <a className="link__enterprise">@ Smart Racoon </a></h3>
-                                        <p className="experience__date">Sep. 23 - Ene. 24 </p>
-                                        <p className="experience__paragraph">Diseño y creación de frontend de calidad para grandes proyectos</p>
-                                        <p className="experience__paragraph">Soporte y desarrollo de backend para garantizar el rendimiento y la escalabilidad </p>
-                                        <p className="experience__paragraph">Diseño de estrategias para mejorar la experiencia de usuario.</p>
-                                    </div>
-
-                                    <div className="experience__description example_2">
-                                        <h3 className="experience__work"> Co-Owner <a href="https://www.linkedin.com/company/talent-forge-latam/" className="link__enterprise">@ Talent Forgers </a></h3>
-                                        <p className="experience__date">Jul. 23 - Nov. 23</p>
-                                        <p className="experience__paragraph">Organizacion del trabajo</p>
-                                        <p className="experience__paragraph">Desarrollo de aplicaciones backend y frontend </p>
-                                        <p className="experience__paragraph">Gestión de bases de datos y repositorios de proyectos</p>
-                                    </div>
-
-                                    <div className="experience__description example_3">
-                                        <h3 className="experience__work"> Auxiliar de Enseñanza  <a href="https://www.soyhenry.com/" className="link__enterprise">@ Henry </a> </h3>
-                                        <p className="experience__date">May. 23 - Jul. 23 </p>
-                                        <p className="experience__paragraph">Coordinar al grupo de alumnos con el objetivo de lograr su adaptación al programa.  </p>
-                                        <p className="experience__paragraph">Guiar a los alumnos en los primeros pasos del curso y resolver sus dudas  </p>
-                                        <p className="experience__paragraph">Asistir y acompañar en la resolución de ejercicios y fomentar la colaboración grupal. </p>
-                                        <p className="experience__paragraph">Proponer ideas para la mejora de los procesos del Bootcamp.</p>
-                                        <p className="experience__paragraph">Promover la cohesión del grupo y generar comunidad. </p>
-                                    </div>
-
-                                    <div className="experience__description example_4">
-                                        <h3 className="experience__work"> Creador de soluciones web freelance </h3>
-                                        <p className="experience__date">Sep. 22 - Mar. 23 </p>
-                                        <p className="experience__paragraph">Construir soluciones web que resuelvan los problemas de los clientes </p>
-                                        <p className="experience__paragraph"> Mantenimiento y mejora el código según lo solicitado por los clientes </p>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
+            <section className="experience">
+                <div className="experience__container container">
+                    <h2 className="title title--experience" data-aos="fade-up-left">¿Dónde he trabajado?</h2>
+                    <div className="experience__content" data-aos="fade-up-right">
+                    <div className="experience__descriptions">
+                        {experienceData.map((experience, index) => (
+                        <JobCard key={index} {...experience} />
+                        ))}
+                    </div>
+                    </div>
+                </div>
             </section>
 
             {/* Tecnologias */}
