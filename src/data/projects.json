@@ -1,0 +1,165 @@
+[
+    {
+      "title": "Talent Forge",
+      "desc": "Proyecto Academico",
+      "videoLink": "https://drive.google.com/file/d/1JrHYy3K8TkkpcZj9nNRv57LScA17nF9l/view?usp=sharing",
+      "codeLink": "https://github.com/Remojs/Talent-Forge-Frontend",
+      "pageLink": "-",
+      "cover": "tfPage",
+      "name": "tfTitle",
+      "icon": "tfIcon"
+    },
+    {
+        "title": "GeoCX",
+        "desc": "Projecto para Cliente",
+        "videoLink": "-",
+        "codeLink": "https://github.com/Remojs",
+        "pageLink": "-",
+        "cover": "gcxPage",
+        "name": "gcxTitle",
+        "icon": "gcxIcon"
+    },
+    {
+        "title": "Gotta Fetch Them All",
+        "desc": "Projecto Personal",
+        "videoLink": "-",
+        "codeLink": "https://github.com/Remojs/GottaFetchThemAll-API",
+        "pageLink": "https://gottafetchthemall-api.netlify.app",
+        "cover": "gftaPage",
+        "name": "gftaTitle",
+        "icon": "gftaIcon"
+    },
+    {
+        "title": "Mazamitla v1",
+        "desc": "Projecto para Cliente",
+        "videoLink": "https://drive.google.com/file/d/1un247-D62Vxkb11Bif3kntP5vcyzI6cV/view?usp=sharing",
+        "codeLink": "-",
+        "pageLink": "-",
+        "cover": "mz1Page",
+        "name": "mz1Title",
+        "icon": "mz1Icon"
+    },
+    {
+        "title": "Mazamitla v2",
+        "desc": "Projecto para Cliente",
+        "videoLink": "https://drive.google.com/file/d/1aC6X889Mz_9gc3eLAcfOpTqyoY0lkNtn/view?usp=sharing",
+        "codeLink": "-",
+        "pageLink": "-",
+        "cover": "mz2Page",
+        "name": "mz2Title",
+        "icon": "mz2Icon"
+    },
+    {
+        "title": "Mazamitla v3",
+        "desc": "Projecto para Cliente",
+        "videoLink": "https://drive.google.com/file/d/1SCmVw0wDCTJHag-3HUCZC240pZttOcSH/view?usp=sharing",
+        "codeLink": "-",
+        "pageLink": "https://www.mazamitlasierratours.com",
+        "cover": "mz3Page",
+        "name": "mz3Title",
+        "icon": "mz3Icon"
+    },
+    {
+        "title": "Bresser",
+        "desc": "Projecto para Cliente",
+        "videoLink": "https://drive.google.com/file/d/19-ERxv9FOT--mPHjb4Pb9wkaIM097REf/view?usp=sharing",
+        "codeLink": "-",
+        "pageLink": "-",
+        "cover": "brsPage",
+        "name": "brsTitle",
+        "icon": "brsIcon"
+    },
+    {
+        "title": "Juridico Cervantes",
+        "desc": "Projecto para Cliente",
+        "videoLink": "https://drive.google.com/file/d/1SoHdlvYoGJsPTTBqSRnSw19Fy6ElfWuZ/view?usp=sharing",
+        "codeLink": "-",
+        "pageLink": "-",
+        "cover": "crvPage",
+        "name": "crvTitle",
+        "icon": "crvIcon"
+    },
+    {
+        "title": "Meraki",
+        "desc": "Projecto para Cliente",
+        "videoLink": "-",
+        "codeLink": "https://github.com/Remojs/Meraki-publicidad",
+        "pageLink": "https://meraki-publicidad.vercel.app",
+        "cover": "mrkPage",
+        "name": "mrkTitle",
+        "icon": "mrkIcon"
+    },
+    {
+        "title": "Pinochueco",
+        "desc": "Projecto para Cliente",
+        "videoLink": "https://drive.google.com/file/d/1gUzod2Xe6AgkXgPFCkJKkvguihK786Ih/view?usp=sharing",
+        "codeLink": "-",
+        "pageLink": "https://pinochueco.com",
+        "cover": "pncPage",
+        "name": "pncTitle",
+        "icon": "pncIcon"
+    },
+    {
+        "title": "Pentacraft Mod",
+        "desc": "Projecto Personal",
+        "videoLink": "-",
+        "codeLink": "https://github.com/Remojs/Ores-Mod_MC1.20.1",
+        "pageLink": "-",
+        "cover": "pcfPage",
+        "name": "pcfTitle",
+        "icon": "pcfIcon"
+    },
+    {
+        "title": "Pokelanding",
+        "desc": "Projecto Personal",
+        "videoLink": "-",
+        "codeLink": "https://github.com/Remojs/Pokelanding",
+        "pageLink": "https://pokelanding-livid.vercel.app",
+        "cover": "pldPage",
+        "name": "pldTitle",
+        "icon": "pldIcon"
+    },
+    {
+        "title": "Rickverse",
+        "desc": "Projecto Academico",
+        "videoLink": "https://drive.google.com/file/d/192vfBfZ2ejszSSu2-ghMC178a-PW1JVo/view?usp=sharing",
+        "codeLink": "https://github.com/Remojs/Rickverse-Frontend",
+        "pageLink": "https://rickverse.vercel.app",
+        "cover": "rvPage",
+        "name": "rvTitle",
+        "icon": "rvIcon"
+    },
+    {
+        "title": "Taskify",
+        "desc": "Projecto Personal",
+        "videoLink": "-",
+        "codeLink": "https://github.com/Remojs/Taskify-Frontend",
+        "pageLink": "https://taskify-frontend.vercel.app",
+        "cover": "tskPage",
+        "name": "tskTitle",
+        "icon": "tskIcon"
+    },
+    {
+        "title": "Steel Gaming",
+        "desc": "Projecto Academico",
+        "videoLink": "https://drive.google.com/file/d/1e3fRyFz6y9GEKLEcPMd7ipLB876e0VE7/view?usp=sharing",
+        "codeLink": "https://github.com/Remojs/Steel-Games-Website",
+        "pageLink": "-",
+        "cover": "stlPage",
+        "name": "stlTitle",
+        "icon": "stlIcon"
+    },
+    {
+        "title": "Sheva",
+        "desc": "Projecto para Cliente",
+        "videoLink": "https://drive.google.com/file/d/1N6IriSDEfdJ89bN56VZKYVixuu2GUCMt/view?usp=sharing",
+        "codeLink": "-",
+        "pageLink": "http://www.ssheva.com",
+        "cover": "shvPage",
+        "name": "shvTitle",
+        "icon": "shvIcon"
+    }
+
+
+]
+  

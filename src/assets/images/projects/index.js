@@ -1,6 +1,6 @@
-export { default as geocxPage } from './geocx-page.png';
-export { default as geocxIcon } from './geocx-icon.png';
-export { default as geocxTitle } from './geocx-word.png';
+export { default as gcxPage } from './geocx-page.png';
+export { default as gcxIcon } from './geocx-icon.png';
+export { default as gcxTitle } from './geocx-word.png';
 
 export { default as gftaPage } from './gfta-page.png';
 export { default as gftaIcon } from './gfta-icon.png';
