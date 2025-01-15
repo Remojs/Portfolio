@@ -183,7 +183,7 @@ return (
                         <div className="experience__descriptions">
                         <div className="experience__description example_1">
                                 <h3 className="experience__work">Jefe de Desarrollo <a className="link__enterprise">@ Smart Racoon </a></h3>
-                                <p className="experience__date">Dec 2023 - act. </p>
+                                <p className="experience__date">Feb. 24 - act. </p>
                                 <p className="experience__paragraph">Coordinación eficaz del personal en proyectos clave, asegurando una ejecución fluida.  </p>
                                 <p className="experience__paragraph">Gestión integral de proyectos y optimización de la comunicación interna.</p>
                                 <p className="experience__paragraph">Organización estratégica de tareas para maximizar la eficiencia operativa.</p>
@@ -192,7 +192,7 @@ return (
 
                             <div className="experience__description example_1">
                                 <h3 className="experience__work">Desarrollador Fullstack <a className="link__enterprise">@ Smart Racoon </a></h3>
-                                <p className="experience__date">Oct 2023 - act. </p>
+                                <p className="experience__date">Sep. 23 - Ene. 24 </p>
                                 <p className="experience__paragraph">Diseño y creación de frontend de calidad para grandes proyectos</p>
                                 <p className="experience__paragraph">Soporte y desarrollo de backend para garantizar el rendimiento y la escalabilidad </p>
                                 <p className="experience__paragraph">Diseño de estrategias para mejorar la experiencia de usuario.</p>
@@ -200,7 +200,7 @@ return (
 
                             <div className="experience__description example_2">
                                 <h3 className="experience__work"> Co-Owner <a href="https://www.linkedin.com/company/talent-forge-latam/" className="link__enterprise">@ Talent Forgers </a></h3>
-                                <p className="experience__date">Jul 2023 - Nov 2023</p>
+                                <p className="experience__date">Jul. 23 - Nov. 23</p>
                                 <p className="experience__paragraph">Organizacion del trabajo</p>
                                 <p className="experience__paragraph">Desarrollo de aplicaciones backend y frontend </p>
                                 <p className="experience__paragraph">Gestión de bases de datos y repositorios de proyectos</p>
@@ -208,7 +208,7 @@ return (
 
                             <div className="experience__description example_3">
                                 <h3 className="experience__work"> Auxiliar de Enseñanza  <a href="https://www.soyhenry.com/" className="link__enterprise">@ Henry </a> </h3>
-                                <p className="experience__date">May 2023 - Jul 2023 </p>
+                                <p className="experience__date">May. 23 - Jul. 23 </p>
                                 <p className="experience__paragraph">Coordinar al grupo de alumnos con el objetivo de lograr su adaptación al programa.  </p>
                                 <p className="experience__paragraph">Guiar a los alumnos en los primeros pasos del curso y resolver sus dudas  </p>
                                 <p className="experience__paragraph">Asistir y acompañar en la resolución de ejercicios y fomentar la colaboración grupal. </p>
@@ -218,7 +218,7 @@ return (
 
                             <div className="experience__description example_4">
                                 <h3 className="experience__work"> Creador de soluciones web freelance </h3>
-                                <p className="experience__date">Sep 2022 - Mar 2023 </p>
+                                <p className="experience__date">Sep. 22 - Mar. 23 </p>
                                 <p className="experience__paragraph">Construir soluciones web que resuelvan los problemas de los clientes </p>
                                 <p className="experience__paragraph"> Mantenimiento y mejora el código según lo solicitado por los clientes </p>
                             </div>
