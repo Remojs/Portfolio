@@ -1,0 +1,62 @@
+[
+  {
+    "puesto": "Jefe de Desarrollo",
+    "empresa": "SmartRacoon",
+    "periodo": "Feb. 24 - act.",
+    "jobDesc": "Responsable de liderar el desarrollo de software, coordinando equipos multidisciplinarios y asegurando un avance constante en todas las áreas del proyecto",
+    "logros": [
+      "Organicé y gestioné equipos para cumplir con los objetivos del proyecto de manera eficiente.",
+      "Implementé metodologías ágiles, mejorando la productividad y la calidad del desarrollo.",
+      "Optimicé código para garantizar la escalabilidad del producto, asegurando consistencia técnica"
+    ],
+    "link": "https://www.linkedin.com/company/smartraccoon/"
+  },
+  {
+    "puesto": "Desarrollador Frontend",
+    "empresa": "SmartRacoon",
+    "periodo": "Sep. 23 - Ene. 24",
+    "jobDesc": "Diseño y desarrollo de interfaces de usuario funcionales y atractivas, garantizando una experiencia fluida para los usuarios",
+    "logros": [
+      "Creé los diseños del Front-End en Figma y lo implementé con precisión en código.",
+      "Apliqué principios de UX/UI, mejorando la interacción usuario-interfaz.",
+      "Ascendí al puesto de Jefe de Desarrollo gracias a las mejoras implementadas en las interfaces de los proyectos."
+    ],
+    "link": "https://www.linkedin.com/company/smartraccoon/"
+  },
+  {
+    "puesto": "Co-Owner & Programador Fullstack",
+    "empresa": "Talent Forge",
+    "periodo": "Jul. 23 - Dic. 23",
+    "jobDesc": "Cofundador de una plataforma de aprendizaje para programadores junior",
+    "logros": [
+      "Organicé a mi equipo para llevar a cabo el proyecto e intentar crecer como marca.",
+      "Contribuí en todas las áreas del desarrollo garantizando el correcto funcionamiento de todo.",
+      "Gestioné los datos del proyecto e implementé estructuras escalables."
+    ],
+    "link": "https://www.linkedin.com/company/96419681"
+  },
+  {
+    "puesto": "Asistente de Enseñanza",
+    "empresa": "SoyHENRY",
+    "periodo": "May. 23 - Jul. 23",
+    "jobDesc": "Acompañamiento académico para alumnos del bootcamp",
+    "logros": [
+      "Coordiné un grupo de 30 personas asegurando su correcto aprendizaje.",
+      "Impartí talleres de código para reforzar temas complicados.",
+      "Desarrollé dinámicas para fomentar el aprendizaje."
+    ],
+    "link": "https://www.linkedin.com/school/henryok"
+  },
+  {
+    "puesto": "Programador Freelance",
+    "empresa": "Freelance",
+    "periodo": "Sep. 22 - Mar. 23",
+    "jobDesc": "Desarrollo de código para clientes que buscaban una solución tecnológica",
+    "logros": [
+      "Creé soluciones a problemas digitales.",
+      "Brindé soporte a clientes para garantizar el correcto funcionamiento del código.",
+      "Desarrollé código escalable y documentado para futuras actualizaciones."
+    ],
+    "link": "https://github.com/Remojs"
+  }
+]

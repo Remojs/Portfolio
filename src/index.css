@@ -91,7 +91,7 @@ a {
 }
 
 .hero {
-    background: url('./Components/resources/fondo.jpg');
+    background: url('./assets//media/fondo.jpg');
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: center bottom;
@@ -443,6 +443,9 @@ a {
     margin-bottom: 1em;
 }
 
+.experience__title {
+    color: #fff;
+}
 
 .experience__paragraph {
     display: flex;
@@ -520,7 +523,7 @@ a {
 /* -----------------Nuevo conocimiento  -------------------*/
 
 .conocimientos {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8169642857142857) 11%, rgba(56, 149, 227, 0) 46%, rgba(0, 0, 0, 0.8981967787114846) 88%), url('./resources/ffflurry.svg');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8169642857142857) 11%, rgba(56, 149, 227, 0) 46%, rgba(0, 0, 0, 0.8981967787114846) 88%), url('./assets/icons/flurry.svg');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -874,7 +877,7 @@ transform: translateY(450px);
 
 .contact {
     padding: 8rem 0;
-    background: linear-gradient(180deg, #000 0%, #3896e33a 50%, #000 100%), url('./components/resources/teclado.webp');
+    background: linear-gradient(180deg, #000 0%, #3896e33a 50%, #000 100%), url('./assets/media/teclado.webp');
     background-repeat: no-repeat;
     /* background-attachment: ; */
     background-size: cover;

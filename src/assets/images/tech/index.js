@@ -14,8 +14,9 @@ export { default as photoshop } from './photoshop.svg';
 export { default as postgres } from './postgres.svg';
 export { default as react } from './react.svg';
 export { default as redux } from './redux.svg';
-export { default as ruby } from './ruby.svg';
 export { default as typescript } from './typescript.svg';
+export { default as php } from './php.svg';
+
 
 
 
